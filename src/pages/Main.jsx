@@ -3,7 +3,7 @@ import axios from "axios";
 import MovieCard from "../components/MovieCard";
 import { AuthContext } from "../context/AuthContextProvider";
 
-const API_KEY = process.env.REACT_APP_TMDB_KEY;
+const API_KEY = "AIzaSyA6bzkxNik7ZZnjSoArjfQFKNCD3mxhO20";
 const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`;
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
 

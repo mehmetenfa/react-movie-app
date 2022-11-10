@@ -15,7 +15,7 @@ const MovieDetail = () => {
     release_date,
   } = movieDetails;
 
-  const API_KEY = process.env.REACT_APP_TMDB_KEY;
+  const API_KEY = "AIzaSyA6bzkxNik7ZZnjSoArjfQFKNCD3mxhO20";
   const movieDetailBaseUrl = `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`;
   const baseImageUrl = "https://image.tmdb.org/t/p/w1280";
   const defaultImage =
