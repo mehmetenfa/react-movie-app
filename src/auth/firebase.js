@@ -17,12 +17,12 @@ import { toastSuccessNotify } from "../helpers/ToastNotify";
 //* https://console.firebase.google.com/ => project settings
 //! firebase console settings bölümünden firebaseconfig ayarlarını al
 const firebaseConfig = {
-  apiKey: process.env.REACT_API_KEY,
+  apiKey: "AIzaSyA6bzkxNik7ZZnjSoArjfQFKNCD3mxhO20",
   authDomain: "movie-app-59908.firebaseapp.com",
   projectId: "movie-app-59908",
   storageBucket: "movie-app-59908.appspot.com",
-  messagingSenderId: process.env.REACT_SENDER_ID,
-  appId: process.env.REACT_APP_ID,
+  messagingSenderId: "385051357950",
+  appId: "1:385051357950:web:2e1e3a24fffd82445e2baf"
 };
 
 // Initialize Firebase
